@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div id="app">
+            <br>
+            <button class="mainButton" onclick="index()">Generate Password</button>
+        </div>
+        <textarea class="para"id="isekai" disabled></textarea>
+        
+        <script src="main.js"></script>
+        <style>
+
+            .mainButton{
+                margin-left:42vw;
+                height:5vw;
+                width:17vw;
+                border-style: solid;
+                border-radius: 1vw;
+                transition: background-color 0.5s, font-size 1s;
+            }
+            .mainButton:hover{
+                background-color: cyan;
+                transition: background-color 0.5s, font-size 1s;
+                font-size: 1.6vw;
+                
+                
+            }
+            
+            .para{
+                font-family: monospace;
+                font-size: 1.7vw;
+                margin-left: 40.5vw;
+                margin-top: 5vw;
+                text-align: center;
+                border-radius: 2vw;
+                border-style: solid;
+                resize: none;
+            }
+
+        </style>
+    </body>
+</html>
