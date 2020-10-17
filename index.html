@@ -8,8 +8,9 @@
         <div id="app">
             <br>
             <button class="mainButton" onclick="index()">Generate Password</button>
-        </div>
-        <textarea class="para"id="isekai" disabled></textarea>
+            <div class="icon-loader" id="icon-loader"><br><img class="loaderImg" src="loader.gif" alt="Loading"></div>
+        </div><br><br><br>
+        <textarea class="para" id="isekai" disabled></textarea>
         
         <script src="main.js"></script>
         <style>
@@ -40,7 +41,17 @@
                 border-style: solid;
                 resize: none;
             }
+            .icon-loader{
+                display: none;
+            }
 
+            .loaderImg{
+                height: 10vw;
+                width: 15vw;
+                position: fixed;
+                margin-left: 43vw;
+            }
         </style>
     </body>
 </html>
+
